@@ -7,15 +7,12 @@
 //
 
 import UIKit
-import OAuth3A
-import Alamofire
+import Friends3A
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-
 }
 

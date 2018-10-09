@@ -7,6 +7,6 @@ target 'Demo' do
 
   # Pods for Demo
   
-  pod 'Friends3A', :git => 'https://github.com/mevansjr/Friends3A'
+  pod 'Friends3A', :git 3Advance OAuth Module=> 'https://github.com/mevansjr/Friends3A'
 
 end

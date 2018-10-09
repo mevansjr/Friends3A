@@ -1,0 +1,23 @@
+PODS:
+  - Friends3A (0.0.1):
+    - Friends3A/Core (= 0.0.1)
+  - Friends3A/Core (0.0.1)
+
+DEPENDENCIES:
+  - Friends3A (from `https://github.com/mevansjr/Friends3A`)
+
+EXTERNAL SOURCES:
+  Friends3A:
+    :git: https://github.com/mevansjr/Friends3A
+
+CHECKOUT OPTIONS:
+  Friends3A:
+    :commit: af03644044c7c54d4a7887987deec9c8a3db346f
+    :git: https://github.com/mevansjr/Friends3A
+
+SPEC CHECKSUMS:
+  Friends3A: 16a79602876e8b37e7d56e08261a62999685b603
+
+PODFILE CHECKSUM: df384ee79be01c5c9aac5c16185c2c68dc10ed96
+
+COCOAPODS: 1.5.3
