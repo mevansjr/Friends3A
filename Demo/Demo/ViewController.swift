@@ -7,13 +7,19 @@
 //
 
 import UIKit
+import Friends3A
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
+        ContactsService.shared.requestContacts { (condition, contacts) in
+            print("\(condition ? "success": "failure")")
+            if let json = contacts.toJSONString(prettyPrint: true) {
+                print("contacts: \(json)")
+            }
+        }
     }
 }
 
