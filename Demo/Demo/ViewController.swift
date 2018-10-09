@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         ContactsService.shared.requestContacts { (condition, contacts) in
-            print("\(condition ? "success": "failure")")
+            print("\(condition ? "Allowed Contacts Access": "NOT ALLOWED Contacts Access")")
             if let json = contacts.toJSONString(prettyPrint: true) {
                 print("contacts: \(json)")
             }
