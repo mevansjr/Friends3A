@@ -14,5 +14,9 @@ Pod::Spec.new do |s|
  s.subspec "Core" do |ss|
      ss.source_files  = "Sources/**/*.swift"
      ss.framework  = "Foundation"
+     ss.framework  = "UIKit"
+     ss.framework  = "MessageUI"
+     ss.framework  = "Contacts"
+     ss.framework  = "ContactsUI"
  end
 end

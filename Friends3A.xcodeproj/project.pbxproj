@@ -7,6 +7,226 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A8267D216D267D005D48D1 /* ContactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8267C216D267D005D48D1 /* ContactsService.swift */; };
+		01A826AE216D26B5005D48D1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82681216D26B5005D48D1 /* TaskDelegate.swift */; };
+		01A826AF216D26B5005D48D1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82681216D26B5005D48D1 /* TaskDelegate.swift */; };
+		01A826B0216D26B5005D48D1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82681216D26B5005D48D1 /* TaskDelegate.swift */; };
+		01A826B1216D26B5005D48D1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82681216D26B5005D48D1 /* TaskDelegate.swift */; };
+		01A826B2216D26B5005D48D1 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82682216D26B5005D48D1 /* MultipartFormData.swift */; };
+		01A826B3216D26B5005D48D1 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82682216D26B5005D48D1 /* MultipartFormData.swift */; };
+		01A826B4216D26B5005D48D1 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82682216D26B5005D48D1 /* MultipartFormData.swift */; };
+		01A826B5216D26B5005D48D1 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82682216D26B5005D48D1 /* MultipartFormData.swift */; };
+		01A826B6216D26B5005D48D1 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82683216D26B5005D48D1 /* NetworkReachabilityManager.swift */; };
+		01A826B7216D26B5005D48D1 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82683216D26B5005D48D1 /* NetworkReachabilityManager.swift */; };
+		01A826B8216D26B5005D48D1 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82683216D26B5005D48D1 /* NetworkReachabilityManager.swift */; };
+		01A826B9216D26B5005D48D1 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82683216D26B5005D48D1 /* NetworkReachabilityManager.swift */; };
+		01A826BA216D26B5005D48D1 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82684216D26B5005D48D1 /* Timeline.swift */; };
+		01A826BB216D26B5005D48D1 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82684216D26B5005D48D1 /* Timeline.swift */; };
+		01A826BC216D26B5005D48D1 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82684216D26B5005D48D1 /* Timeline.swift */; };
+		01A826BD216D26B5005D48D1 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82684216D26B5005D48D1 /* Timeline.swift */; };
+		01A826BE216D26B5005D48D1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82685216D26B5005D48D1 /* DispatchQueue+Alamofire.swift */; };
+		01A826BF216D26B5005D48D1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82685216D26B5005D48D1 /* DispatchQueue+Alamofire.swift */; };
+		01A826C0216D26B5005D48D1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82685216D26B5005D48D1 /* DispatchQueue+Alamofire.swift */; };
+		01A826C1216D26B5005D48D1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82685216D26B5005D48D1 /* DispatchQueue+Alamofire.swift */; };
+		01A826C2216D26B5005D48D1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82686216D26B5005D48D1 /* Result.swift */; };
+		01A826C3216D26B5005D48D1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82686216D26B5005D48D1 /* Result.swift */; };
+		01A826C4216D26B5005D48D1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82686216D26B5005D48D1 /* Result.swift */; };
+		01A826C5216D26B5005D48D1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82686216D26B5005D48D1 /* Result.swift */; };
+		01A826C6216D26B5005D48D1 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82687216D26B5005D48D1 /* ParameterEncoding.swift */; };
+		01A826C7216D26B5005D48D1 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82687216D26B5005D48D1 /* ParameterEncoding.swift */; };
+		01A826C8216D26B5005D48D1 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82687216D26B5005D48D1 /* ParameterEncoding.swift */; };
+		01A826C9216D26B5005D48D1 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82687216D26B5005D48D1 /* ParameterEncoding.swift */; };
+		01A826CA216D26B5005D48D1 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82688216D26B5005D48D1 /* AFError.swift */; };
+		01A826CB216D26B5005D48D1 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82688216D26B5005D48D1 /* AFError.swift */; };
+		01A826CC216D26B5005D48D1 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82688216D26B5005D48D1 /* AFError.swift */; };
+		01A826CD216D26B5005D48D1 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82688216D26B5005D48D1 /* AFError.swift */; };
+		01A826CE216D26B5005D48D1 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82689216D26B5005D48D1 /* Validation.swift */; };
+		01A826CF216D26B6005D48D1 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82689216D26B5005D48D1 /* Validation.swift */; };
+		01A826D0216D26B6005D48D1 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82689216D26B5005D48D1 /* Validation.swift */; };
+		01A826D1216D26B6005D48D1 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82689216D26B5005D48D1 /* Validation.swift */; };
+		01A826D2216D26B6005D48D1 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268A216D26B5005D48D1 /* Notifications.swift */; };
+		01A826D3216D26B6005D48D1 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268A216D26B5005D48D1 /* Notifications.swift */; };
+		01A826D4216D26B6005D48D1 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268A216D26B5005D48D1 /* Notifications.swift */; };
+		01A826D5216D26B6005D48D1 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268A216D26B5005D48D1 /* Notifications.swift */; };
+		01A826D6216D26B6005D48D1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268B216D26B5005D48D1 /* Response.swift */; };
+		01A826D7216D26B6005D48D1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268B216D26B5005D48D1 /* Response.swift */; };
+		01A826D8216D26B6005D48D1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268B216D26B5005D48D1 /* Response.swift */; };
+		01A826D9216D26B6005D48D1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268B216D26B5005D48D1 /* Response.swift */; };
+		01A826DA216D26B6005D48D1 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268C216D26B5005D48D1 /* Alamofire.swift */; };
+		01A826DB216D26B6005D48D1 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268C216D26B5005D48D1 /* Alamofire.swift */; };
+		01A826DC216D26B6005D48D1 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268C216D26B5005D48D1 /* Alamofire.swift */; };
+		01A826DD216D26B6005D48D1 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268C216D26B5005D48D1 /* Alamofire.swift */; };
+		01A826DE216D26B6005D48D1 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268D216D26B5005D48D1 /* Request.swift */; };
+		01A826DF216D26B6005D48D1 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268D216D26B5005D48D1 /* Request.swift */; };
+		01A826E0216D26B6005D48D1 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268D216D26B5005D48D1 /* Request.swift */; };
+		01A826E1216D26B6005D48D1 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268D216D26B5005D48D1 /* Request.swift */; };
+		01A826E2216D26B6005D48D1 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268E216D26B5005D48D1 /* SessionManager.swift */; };
+		01A826E3216D26B6005D48D1 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268E216D26B5005D48D1 /* SessionManager.swift */; };
+		01A826E4216D26B6005D48D1 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268E216D26B5005D48D1 /* SessionManager.swift */; };
+		01A826E5216D26B6005D48D1 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268E216D26B5005D48D1 /* SessionManager.swift */; };
+		01A826E6216D26B6005D48D1 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268F216D26B5005D48D1 /* ResponseSerialization.swift */; };
+		01A826E7216D26B6005D48D1 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268F216D26B5005D48D1 /* ResponseSerialization.swift */; };
+		01A826E8216D26B6005D48D1 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268F216D26B5005D48D1 /* ResponseSerialization.swift */; };
+		01A826E9216D26B6005D48D1 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8268F216D26B5005D48D1 /* ResponseSerialization.swift */; };
+		01A826EA216D26B6005D48D1 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82690216D26B5005D48D1 /* ServerTrustPolicy.swift */; };
+		01A826EB216D26B6005D48D1 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82690216D26B5005D48D1 /* ServerTrustPolicy.swift */; };
+		01A826EC216D26B6005D48D1 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82690216D26B5005D48D1 /* ServerTrustPolicy.swift */; };
+		01A826ED216D26B6005D48D1 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82690216D26B5005D48D1 /* ServerTrustPolicy.swift */; };
+		01A826EE216D26B6005D48D1 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82691216D26B5005D48D1 /* SessionDelegate.swift */; };
+		01A826EF216D26B6005D48D1 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82691216D26B5005D48D1 /* SessionDelegate.swift */; };
+		01A826F0216D26B6005D48D1 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82691216D26B5005D48D1 /* SessionDelegate.swift */; };
+		01A826F1216D26B6005D48D1 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82691216D26B5005D48D1 /* SessionDelegate.swift */; };
+		01A826F2216D26B6005D48D1 /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82694216D26B5005D48D1 /* AlamofireObjectMapper.swift */; };
+		01A826F3216D26B6005D48D1 /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82694216D26B5005D48D1 /* AlamofireObjectMapper.swift */; };
+		01A826F4216D26B6005D48D1 /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82694216D26B5005D48D1 /* AlamofireObjectMapper.swift */; };
+		01A826F5216D26B6005D48D1 /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82694216D26B5005D48D1 /* AlamofireObjectMapper.swift */; };
+		01A826F6216D26B6005D48D1 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82697216D26B5005D48D1 /* Mappable.swift */; };
+		01A826F7216D26B6005D48D1 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82697216D26B5005D48D1 /* Mappable.swift */; };
+		01A826F8216D26B6005D48D1 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82697216D26B5005D48D1 /* Mappable.swift */; };
+		01A826F9216D26B6005D48D1 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82697216D26B5005D48D1 /* Mappable.swift */; };
+		01A826FA216D26B6005D48D1 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82698216D26B5005D48D1 /* CustomDateFormatTransform.swift */; };
+		01A826FB216D26B6005D48D1 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82698216D26B5005D48D1 /* CustomDateFormatTransform.swift */; };
+		01A826FC216D26B6005D48D1 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82698216D26B5005D48D1 /* CustomDateFormatTransform.swift */; };
+		01A826FD216D26B6005D48D1 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82698216D26B5005D48D1 /* CustomDateFormatTransform.swift */; };
+		01A826FE216D26B6005D48D1 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82699216D26B5005D48D1 /* HexColorTransform.swift */; };
+		01A826FF216D26B6005D48D1 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82699216D26B5005D48D1 /* HexColorTransform.swift */; };
+		01A82700216D26B6005D48D1 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82699216D26B5005D48D1 /* HexColorTransform.swift */; };
+		01A82701216D26B6005D48D1 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82699216D26B5005D48D1 /* HexColorTransform.swift */; };
+		01A82702216D26B6005D48D1 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269A216D26B5005D48D1 /* ISO8601DateTransform.swift */; };
+		01A82703216D26B6005D48D1 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269A216D26B5005D48D1 /* ISO8601DateTransform.swift */; };
+		01A82704216D26B6005D48D1 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269A216D26B5005D48D1 /* ISO8601DateTransform.swift */; };
+		01A82705216D26B6005D48D1 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269A216D26B5005D48D1 /* ISO8601DateTransform.swift */; };
+		01A82706216D26B6005D48D1 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269B216D26B5005D48D1 /* URLTransform.swift */; };
+		01A82707216D26B6005D48D1 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269B216D26B5005D48D1 /* URLTransform.swift */; };
+		01A82708216D26B6005D48D1 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269B216D26B5005D48D1 /* URLTransform.swift */; };
+		01A82709216D26B6005D48D1 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269B216D26B5005D48D1 /* URLTransform.swift */; };
+		01A8270A216D26B6005D48D1 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269C216D26B5005D48D1 /* NSDecimalNumberTransform.swift */; };
+		01A8270B216D26B6005D48D1 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269C216D26B5005D48D1 /* NSDecimalNumberTransform.swift */; };
+		01A8270C216D26B6005D48D1 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269C216D26B5005D48D1 /* NSDecimalNumberTransform.swift */; };
+		01A8270D216D26B6005D48D1 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269C216D26B5005D48D1 /* NSDecimalNumberTransform.swift */; };
+		01A8270E216D26B6005D48D1 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269D216D26B5005D48D1 /* Operators.swift */; };
+		01A8270F216D26B6005D48D1 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269D216D26B5005D48D1 /* Operators.swift */; };
+		01A82710216D26B6005D48D1 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269D216D26B5005D48D1 /* Operators.swift */; };
+		01A82711216D26B6005D48D1 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269D216D26B5005D48D1 /* Operators.swift */; };
+		01A82712216D26B6005D48D1 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269E216D26B5005D48D1 /* EnumOperators.swift */; };
+		01A82713216D26B6005D48D1 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269E216D26B5005D48D1 /* EnumOperators.swift */; };
+		01A82714216D26B6005D48D1 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269E216D26B5005D48D1 /* EnumOperators.swift */; };
+		01A82715216D26B6005D48D1 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269E216D26B5005D48D1 /* EnumOperators.swift */; };
+		01A82716216D26B6005D48D1 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269F216D26B5005D48D1 /* EnumTransform.swift */; };
+		01A82717216D26B6005D48D1 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269F216D26B5005D48D1 /* EnumTransform.swift */; };
+		01A82718216D26B6005D48D1 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269F216D26B5005D48D1 /* EnumTransform.swift */; };
+		01A82719216D26B6005D48D1 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8269F216D26B5005D48D1 /* EnumTransform.swift */; };
+		01A8271A216D26B6005D48D1 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A0216D26B5005D48D1 /* DataTransform.swift */; };
+		01A8271B216D26B6005D48D1 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A0216D26B5005D48D1 /* DataTransform.swift */; };
+		01A8271C216D26B6005D48D1 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A0216D26B5005D48D1 /* DataTransform.swift */; };
+		01A8271D216D26B6005D48D1 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A0216D26B5005D48D1 /* DataTransform.swift */; };
+		01A8271E216D26B6005D48D1 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A1216D26B5005D48D1 /* Mapper.swift */; };
+		01A8271F216D26B6005D48D1 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A1216D26B5005D48D1 /* Mapper.swift */; };
+		01A82720216D26B6005D48D1 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A1216D26B5005D48D1 /* Mapper.swift */; };
+		01A82721216D26B6005D48D1 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A1216D26B5005D48D1 /* Mapper.swift */; };
+		01A82722216D26B6005D48D1 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A2216D26B5005D48D1 /* Map.swift */; };
+		01A82723216D26B6005D48D1 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A2216D26B5005D48D1 /* Map.swift */; };
+		01A82724216D26B6005D48D1 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A2216D26B5005D48D1 /* Map.swift */; };
+		01A82725216D26B6005D48D1 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A2216D26B5005D48D1 /* Map.swift */; };
+		01A82726216D26B6005D48D1 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A3216D26B5005D48D1 /* FromJSON.swift */; };
+		01A82727216D26B6005D48D1 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A3216D26B5005D48D1 /* FromJSON.swift */; };
+		01A82728216D26B6005D48D1 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A3216D26B5005D48D1 /* FromJSON.swift */; };
+		01A82729216D26B6005D48D1 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A3216D26B5005D48D1 /* FromJSON.swift */; };
+		01A8272A216D26B6005D48D1 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A4216D26B5005D48D1 /* DictionaryTransform.swift */; };
+		01A8272B216D26B6005D48D1 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A4216D26B5005D48D1 /* DictionaryTransform.swift */; };
+		01A8272C216D26B6005D48D1 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A4216D26B5005D48D1 /* DictionaryTransform.swift */; };
+		01A8272D216D26B6005D48D1 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A4216D26B5005D48D1 /* DictionaryTransform.swift */; };
+		01A8272E216D26B6005D48D1 /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A5216D26B5005D48D1 /* TransformOperators.swift */; };
+		01A8272F216D26B6005D48D1 /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A5216D26B5005D48D1 /* TransformOperators.swift */; };
+		01A82730216D26B6005D48D1 /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A5216D26B5005D48D1 /* TransformOperators.swift */; };
+		01A82731216D26B6005D48D1 /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A5216D26B5005D48D1 /* TransformOperators.swift */; };
+		01A82732216D26B6005D48D1 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A6216D26B5005D48D1 /* ImmutableMappable.swift */; };
+		01A82733216D26B6005D48D1 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A6216D26B5005D48D1 /* ImmutableMappable.swift */; };
+		01A82734216D26B6005D48D1 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A6216D26B5005D48D1 /* ImmutableMappable.swift */; };
+		01A82735216D26B6005D48D1 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A6216D26B5005D48D1 /* ImmutableMappable.swift */; };
+		01A82736216D26B6005D48D1 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A7216D26B5005D48D1 /* IntegerOperators.swift */; };
+		01A82737216D26B6005D48D1 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A7216D26B5005D48D1 /* IntegerOperators.swift */; };
+		01A82738216D26B6005D48D1 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A7216D26B5005D48D1 /* IntegerOperators.swift */; };
+		01A82739216D26B6005D48D1 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A7216D26B5005D48D1 /* IntegerOperators.swift */; };
+		01A8273A216D26B6005D48D1 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A8216D26B5005D48D1 /* TransformType.swift */; };
+		01A8273B216D26B6005D48D1 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A8216D26B5005D48D1 /* TransformType.swift */; };
+		01A8273C216D26B6005D48D1 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A8216D26B5005D48D1 /* TransformType.swift */; };
+		01A8273D216D26B6005D48D1 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A8216D26B5005D48D1 /* TransformType.swift */; };
+		01A8273E216D26B6005D48D1 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A9216D26B5005D48D1 /* MapError.swift */; };
+		01A8273F216D26B6005D48D1 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A9216D26B5005D48D1 /* MapError.swift */; };
+		01A82740216D26B6005D48D1 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A9216D26B5005D48D1 /* MapError.swift */; };
+		01A82741216D26B6005D48D1 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826A9216D26B5005D48D1 /* MapError.swift */; };
+		01A82742216D26B6005D48D1 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AA216D26B5005D48D1 /* DateTransform.swift */; };
+		01A82743216D26B6005D48D1 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AA216D26B5005D48D1 /* DateTransform.swift */; };
+		01A82744216D26B6005D48D1 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AA216D26B5005D48D1 /* DateTransform.swift */; };
+		01A82745216D26B6005D48D1 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AA216D26B5005D48D1 /* DateTransform.swift */; };
+		01A82746216D26B6005D48D1 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AB216D26B5005D48D1 /* DateFormatterTransform.swift */; };
+		01A82747216D26B6005D48D1 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AB216D26B5005D48D1 /* DateFormatterTransform.swift */; };
+		01A82748216D26B6005D48D1 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AB216D26B5005D48D1 /* DateFormatterTransform.swift */; };
+		01A82749216D26B6005D48D1 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AB216D26B5005D48D1 /* DateFormatterTransform.swift */; };
+		01A8274A216D26B6005D48D1 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AC216D26B5005D48D1 /* ToJSON.swift */; };
+		01A8274B216D26B6005D48D1 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AC216D26B5005D48D1 /* ToJSON.swift */; };
+		01A8274C216D26B6005D48D1 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AC216D26B5005D48D1 /* ToJSON.swift */; };
+		01A8274D216D26B6005D48D1 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AC216D26B5005D48D1 /* ToJSON.swift */; };
+		01A8274E216D26B6005D48D1 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AD216D26B5005D48D1 /* TransformOf.swift */; };
+		01A8274F216D26B6005D48D1 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AD216D26B5005D48D1 /* TransformOf.swift */; };
+		01A82750216D26B6005D48D1 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AD216D26B5005D48D1 /* TransformOf.swift */; };
+		01A82751216D26B6005D48D1 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A826AD216D26B5005D48D1 /* TransformOf.swift */; };
+		01A82769216D2913005D48D1 /* SwiftAddressBookGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82760216D2913005D48D1 /* SwiftAddressBookGroup.swift */; };
+		01A8276A216D2913005D48D1 /* SwiftAddressBookGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82760216D2913005D48D1 /* SwiftAddressBookGroup.swift */; };
+		01A8276B216D2913005D48D1 /* SwiftAddressBookGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82760216D2913005D48D1 /* SwiftAddressBookGroup.swift */; };
+		01A8276C216D2913005D48D1 /* SwiftAddressBookGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82760216D2913005D48D1 /* SwiftAddressBookGroup.swift */; };
+		01A8276D216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82761216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift */; };
+		01A8276E216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82761216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift */; };
+		01A8276F216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82761216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift */; };
+		01A82770216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82761216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift */; };
+		01A82771216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A82762216D2913005D48D1 /* SwiftAddressBookObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01A82772216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A82762216D2913005D48D1 /* SwiftAddressBookObserver.h */; };
+		01A82773216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A82762216D2913005D48D1 /* SwiftAddressBookObserver.h */; };
+		01A82774216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A82762216D2913005D48D1 /* SwiftAddressBookObserver.h */; };
+		01A82775216D2913005D48D1 /* SwiftAddressBookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82763216D2913005D48D1 /* SwiftAddressBookRecord.swift */; };
+		01A82776216D2913005D48D1 /* SwiftAddressBookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82763216D2913005D48D1 /* SwiftAddressBookRecord.swift */; };
+		01A82777216D2913005D48D1 /* SwiftAddressBookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82763216D2913005D48D1 /* SwiftAddressBookRecord.swift */; };
+		01A82778216D2913005D48D1 /* SwiftAddressBookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82763216D2913005D48D1 /* SwiftAddressBookRecord.swift */; };
+		01A82779216D2913005D48D1 /* SwiftAddressBookObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A82764216D2913005D48D1 /* SwiftAddressBookObserver.m */; };
+		01A8277A216D2913005D48D1 /* SwiftAddressBookObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A82764216D2913005D48D1 /* SwiftAddressBookObserver.m */; };
+		01A8277B216D2913005D48D1 /* SwiftAddressBookObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A82764216D2913005D48D1 /* SwiftAddressBookObserver.m */; };
+		01A8277C216D2913005D48D1 /* SwiftAddressBookObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A82764216D2913005D48D1 /* SwiftAddressBookObserver.m */; };
+		01A8277D216D2913005D48D1 /* SwiftAddressBookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82765216D2913005D48D1 /* SwiftAddressBookPerson.swift */; };
+		01A8277E216D2913005D48D1 /* SwiftAddressBookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82765216D2913005D48D1 /* SwiftAddressBookPerson.swift */; };
+		01A8277F216D2913005D48D1 /* SwiftAddressBookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82765216D2913005D48D1 /* SwiftAddressBookPerson.swift */; };
+		01A82780216D2913005D48D1 /* SwiftAddressBookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82765216D2913005D48D1 /* SwiftAddressBookPerson.swift */; };
+		01A82781216D2913005D48D1 /* SwiftAddressBookWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82766216D2913005D48D1 /* SwiftAddressBookWrapper.swift */; };
+		01A82782216D2913005D48D1 /* SwiftAddressBookWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82766216D2913005D48D1 /* SwiftAddressBookWrapper.swift */; };
+		01A82783216D2913005D48D1 /* SwiftAddressBookWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82766216D2913005D48D1 /* SwiftAddressBookWrapper.swift */; };
+		01A82784216D2913005D48D1 /* SwiftAddressBookWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82766216D2913005D48D1 /* SwiftAddressBookWrapper.swift */; };
+		01A82785216D2913005D48D1 /* SwiftAddressBookSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82767216D2913005D48D1 /* SwiftAddressBookSource.swift */; };
+		01A82786216D2913005D48D1 /* SwiftAddressBookSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82767216D2913005D48D1 /* SwiftAddressBookSource.swift */; };
+		01A82787216D2913005D48D1 /* SwiftAddressBookSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82767216D2913005D48D1 /* SwiftAddressBookSource.swift */; };
+		01A82788216D2913005D48D1 /* SwiftAddressBookSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82767216D2913005D48D1 /* SwiftAddressBookSource.swift */; };
+		01A82789216D2913005D48D1 /* SwiftAddressBookDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82768216D2913005D48D1 /* SwiftAddressBookDataStructures.swift */; };
+		01A8278A216D2913005D48D1 /* SwiftAddressBookDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82768216D2913005D48D1 /* SwiftAddressBookDataStructures.swift */; };
+		01A8278B216D2913005D48D1 /* SwiftAddressBookDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82768216D2913005D48D1 /* SwiftAddressBookDataStructures.swift */; };
+		01A8278C216D2913005D48D1 /* SwiftAddressBookDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82768216D2913005D48D1 /* SwiftAddressBookDataStructures.swift */; };
+		01A827B3216D2AE0005D48D1 /* ContactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8267C216D267D005D48D1 /* ContactsService.swift */; };
+		01A827B4216D2AE1005D48D1 /* ContactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8267C216D267D005D48D1 /* ContactsService.swift */; };
+		01A827B5216D2AE2005D48D1 /* ContactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8267C216D267D005D48D1 /* ContactsService.swift */; };
+		01A827B8216D2D0C005D48D1 /* FriendDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827B7216D2D0B005D48D1 /* FriendDetail.swift */; };
+		01A827B9216D2D0C005D48D1 /* FriendDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827B7216D2D0B005D48D1 /* FriendDetail.swift */; };
+		01A827BA216D2D0C005D48D1 /* FriendDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827B7216D2D0B005D48D1 /* FriendDetail.swift */; };
+		01A827BB216D2D0C005D48D1 /* FriendDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827B7216D2D0B005D48D1 /* FriendDetail.swift */; };
+		01A827EE216D418A005D48D1 /* ContactsAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827ED216D4189005D48D1 /* ContactsAPIRouter.swift */; };
+		01A827EF216D418A005D48D1 /* ContactsAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827ED216D4189005D48D1 /* ContactsAPIRouter.swift */; };
+		01A827F0216D418A005D48D1 /* ContactsAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827ED216D4189005D48D1 /* ContactsAPIRouter.swift */; };
+		01A827F1216D418A005D48D1 /* ContactsAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827ED216D4189005D48D1 /* ContactsAPIRouter.swift */; };
+		01A827F8216D4296005D48D1 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827F3216D4296005D48D1 /* BaseService.swift */; };
+		01A827F9216D4296005D48D1 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827F3216D4296005D48D1 /* BaseService.swift */; };
+		01A827FA216D4296005D48D1 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827F3216D4296005D48D1 /* BaseService.swift */; };
+		01A827FB216D4296005D48D1 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827F3216D4296005D48D1 /* BaseService.swift */; };
+		01A827FE216D4374005D48D1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827FD216D4374005D48D1 /* API.swift */; };
+		01A827FF216D4374005D48D1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827FD216D4374005D48D1 /* API.swift */; };
+		01A82800216D4374005D48D1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827FD216D4374005D48D1 /* API.swift */; };
+		01A82801216D4374005D48D1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A827FD216D4374005D48D1 /* API.swift */; };
 		3549BB501DA38A2000C63030 /* Friends3A.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* Friends3A.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB511DA38A2000C63030 /* Friends3A.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* Friends3A.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB521DA38A2100C63030 /* Friends3A.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* Friends3A.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -99,6 +319,61 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01A8267C216D267D005D48D1 /* ContactsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsService.swift; sourceTree = "<group>"; };
+		01A82681216D26B5005D48D1 /* TaskDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		01A82682216D26B5005D48D1 /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		01A82683216D26B5005D48D1 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		01A82684216D26B5005D48D1 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		01A82685216D26B5005D48D1 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		01A82686216D26B5005D48D1 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		01A82687216D26B5005D48D1 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		01A82688216D26B5005D48D1 /* AFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		01A82689216D26B5005D48D1 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		01A8268A216D26B5005D48D1 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		01A8268B216D26B5005D48D1 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		01A8268C216D26B5005D48D1 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		01A8268D216D26B5005D48D1 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		01A8268E216D26B5005D48D1 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		01A8268F216D26B5005D48D1 /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		01A82690216D26B5005D48D1 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		01A82691216D26B5005D48D1 /* SessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		01A82694216D26B5005D48D1 /* AlamofireObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireObjectMapper.swift; sourceTree = "<group>"; };
+		01A82697216D26B5005D48D1 /* Mappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		01A82698216D26B5005D48D1 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		01A82699216D26B5005D48D1 /* HexColorTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColorTransform.swift; sourceTree = "<group>"; };
+		01A8269A216D26B5005D48D1 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		01A8269B216D26B5005D48D1 /* URLTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTransform.swift; sourceTree = "<group>"; };
+		01A8269C216D26B5005D48D1 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		01A8269D216D26B5005D48D1 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		01A8269E216D26B5005D48D1 /* EnumOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumOperators.swift; sourceTree = "<group>"; };
+		01A8269F216D26B5005D48D1 /* EnumTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTransform.swift; sourceTree = "<group>"; };
+		01A826A0216D26B5005D48D1 /* DataTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransform.swift; sourceTree = "<group>"; };
+		01A826A1216D26B5005D48D1 /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		01A826A2216D26B5005D48D1 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		01A826A3216D26B5005D48D1 /* FromJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromJSON.swift; sourceTree = "<group>"; };
+		01A826A4216D26B5005D48D1 /* DictionaryTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTransform.swift; sourceTree = "<group>"; };
+		01A826A5216D26B5005D48D1 /* TransformOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOperators.swift; sourceTree = "<group>"; };
+		01A826A6216D26B5005D48D1 /* ImmutableMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmutableMappable.swift; sourceTree = "<group>"; };
+		01A826A7216D26B5005D48D1 /* IntegerOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerOperators.swift; sourceTree = "<group>"; };
+		01A826A8216D26B5005D48D1 /* TransformType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformType.swift; sourceTree = "<group>"; };
+		01A826A9216D26B5005D48D1 /* MapError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapError.swift; sourceTree = "<group>"; };
+		01A826AA216D26B5005D48D1 /* DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTransform.swift; sourceTree = "<group>"; };
+		01A826AB216D26B5005D48D1 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterTransform.swift; sourceTree = "<group>"; };
+		01A826AC216D26B5005D48D1 /* ToJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToJSON.swift; sourceTree = "<group>"; };
+		01A826AD216D26B5005D48D1 /* TransformOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOf.swift; sourceTree = "<group>"; };
+		01A82760216D2913005D48D1 /* SwiftAddressBookGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAddressBookGroup.swift; sourceTree = "<group>"; };
+		01A82761216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAddressBookHelperMethods.swift; sourceTree = "<group>"; };
+		01A82762216D2913005D48D1 /* SwiftAddressBookObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftAddressBookObserver.h; sourceTree = "<group>"; };
+		01A82763216D2913005D48D1 /* SwiftAddressBookRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAddressBookRecord.swift; sourceTree = "<group>"; };
+		01A82764216D2913005D48D1 /* SwiftAddressBookObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftAddressBookObserver.m; sourceTree = "<group>"; };
+		01A82765216D2913005D48D1 /* SwiftAddressBookPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAddressBookPerson.swift; sourceTree = "<group>"; };
+		01A82766216D2913005D48D1 /* SwiftAddressBookWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAddressBookWrapper.swift; sourceTree = "<group>"; };
+		01A82767216D2913005D48D1 /* SwiftAddressBookSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAddressBookSource.swift; sourceTree = "<group>"; };
+		01A82768216D2913005D48D1 /* SwiftAddressBookDataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAddressBookDataStructures.swift; sourceTree = "<group>"; };
+		01A827B7216D2D0B005D48D1 /* FriendDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetail.swift; sourceTree = "<group>"; };
+		01A827ED216D4189005D48D1 /* ContactsAPIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsAPIRouter.swift; sourceTree = "<group>"; };
+		01A827F3216D4296005D48D1 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		01A827FD216D4374005D48D1 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		3549BB171DA3890B00C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3549BB181DA3890B00C63030 /* Friends3A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friends3A.h; sourceTree = "<group>"; };
 		3549BB211DA389CD00C63030 /* Friends3A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Friends3A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,6 +458,160 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01A8267B216D267D005D48D1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				01A827F3216D4296005D48D1 /* BaseService.swift */,
+				01A8267C216D267D005D48D1 /* ContactsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		01A8267E216D26B5005D48D1 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				01A8275E216D2913005D48D1 /* SwiftAddressBook */,
+				01A8267F216D26B5005D48D1 /* Alamofire */,
+				01A82692216D26B5005D48D1 /* AlamofireObjectMapper */,
+				01A82695216D26B5005D48D1 /* ObjectMapper */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		01A8267F216D26B5005D48D1 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				01A82680216D26B5005D48D1 /* Source */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		01A82680216D26B5005D48D1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				01A82681216D26B5005D48D1 /* TaskDelegate.swift */,
+				01A82682216D26B5005D48D1 /* MultipartFormData.swift */,
+				01A82683216D26B5005D48D1 /* NetworkReachabilityManager.swift */,
+				01A82684216D26B5005D48D1 /* Timeline.swift */,
+				01A82685216D26B5005D48D1 /* DispatchQueue+Alamofire.swift */,
+				01A82686216D26B5005D48D1 /* Result.swift */,
+				01A82687216D26B5005D48D1 /* ParameterEncoding.swift */,
+				01A82688216D26B5005D48D1 /* AFError.swift */,
+				01A82689216D26B5005D48D1 /* Validation.swift */,
+				01A8268A216D26B5005D48D1 /* Notifications.swift */,
+				01A8268B216D26B5005D48D1 /* Response.swift */,
+				01A8268C216D26B5005D48D1 /* Alamofire.swift */,
+				01A8268D216D26B5005D48D1 /* Request.swift */,
+				01A8268E216D26B5005D48D1 /* SessionManager.swift */,
+				01A8268F216D26B5005D48D1 /* ResponseSerialization.swift */,
+				01A82690216D26B5005D48D1 /* ServerTrustPolicy.swift */,
+				01A82691216D26B5005D48D1 /* SessionDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		01A82692216D26B5005D48D1 /* AlamofireObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				01A82693216D26B5005D48D1 /* AlamofireObjectMapper */,
+			);
+			path = AlamofireObjectMapper;
+			sourceTree = "<group>";
+		};
+		01A82693216D26B5005D48D1 /* AlamofireObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				01A82694216D26B5005D48D1 /* AlamofireObjectMapper.swift */,
+			);
+			path = AlamofireObjectMapper;
+			sourceTree = "<group>";
+		};
+		01A82695216D26B5005D48D1 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				01A82696216D26B5005D48D1 /* Sources */,
+			);
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		01A82696216D26B5005D48D1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				01A82697216D26B5005D48D1 /* Mappable.swift */,
+				01A82698216D26B5005D48D1 /* CustomDateFormatTransform.swift */,
+				01A82699216D26B5005D48D1 /* HexColorTransform.swift */,
+				01A8269A216D26B5005D48D1 /* ISO8601DateTransform.swift */,
+				01A8269B216D26B5005D48D1 /* URLTransform.swift */,
+				01A8269C216D26B5005D48D1 /* NSDecimalNumberTransform.swift */,
+				01A8269D216D26B5005D48D1 /* Operators.swift */,
+				01A8269E216D26B5005D48D1 /* EnumOperators.swift */,
+				01A8269F216D26B5005D48D1 /* EnumTransform.swift */,
+				01A826A0216D26B5005D48D1 /* DataTransform.swift */,
+				01A826A1216D26B5005D48D1 /* Mapper.swift */,
+				01A826A2216D26B5005D48D1 /* Map.swift */,
+				01A826A3216D26B5005D48D1 /* FromJSON.swift */,
+				01A826A4216D26B5005D48D1 /* DictionaryTransform.swift */,
+				01A826A5216D26B5005D48D1 /* TransformOperators.swift */,
+				01A826A6216D26B5005D48D1 /* ImmutableMappable.swift */,
+				01A826A7216D26B5005D48D1 /* IntegerOperators.swift */,
+				01A826A8216D26B5005D48D1 /* TransformType.swift */,
+				01A826A9216D26B5005D48D1 /* MapError.swift */,
+				01A826AA216D26B5005D48D1 /* DateTransform.swift */,
+				01A826AB216D26B5005D48D1 /* DateFormatterTransform.swift */,
+				01A826AC216D26B5005D48D1 /* ToJSON.swift */,
+				01A826AD216D26B5005D48D1 /* TransformOf.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		01A8275E216D2913005D48D1 /* SwiftAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				01A8275F216D2913005D48D1 /* Classes */,
+			);
+			path = SwiftAddressBook;
+			sourceTree = "<group>";
+		};
+		01A8275F216D2913005D48D1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01A82760216D2913005D48D1 /* SwiftAddressBookGroup.swift */,
+				01A82761216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift */,
+				01A82762216D2913005D48D1 /* SwiftAddressBookObserver.h */,
+				01A82763216D2913005D48D1 /* SwiftAddressBookRecord.swift */,
+				01A82764216D2913005D48D1 /* SwiftAddressBookObserver.m */,
+				01A82765216D2913005D48D1 /* SwiftAddressBookPerson.swift */,
+				01A82766216D2913005D48D1 /* SwiftAddressBookWrapper.swift */,
+				01A82767216D2913005D48D1 /* SwiftAddressBookSource.swift */,
+				01A82768216D2913005D48D1 /* SwiftAddressBookDataStructures.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		01A827B6216D2D0B005D48D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01A827B7216D2D0B005D48D1 /* FriendDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01A827EC216D4189005D48D1 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				01A827ED216D4189005D48D1 /* ContactsAPIRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		01A827FC216D4374005D48D1 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				01A827FD216D4374005D48D1 /* API.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 		3549BAFB1DA387DB00C63030 = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +690,11 @@
 			isa = PBXGroup;
 			children = (
 				359649021FB18CBF00FC7ADC /* Friends3A.swift */,
+				01A827FC216D4374005D48D1 /* Configuration */,
+				01A827EC216D4189005D48D1 /* Routers */,
+				01A827B6216D2D0B005D48D1 /* Models */,
+				01A8267B216D267D005D48D1 /* Services */,
+				01A8267E216D26B5005D48D1 /* Libraries */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -272,6 +706,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A82771216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */,
 				3549BB501DA38A2000C63030 /* Friends3A.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +715,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A82774216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */,
 				3549BB521DA38A2100C63030 /* Friends3A.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +724,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A82772216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */,
 				3549BB531DA38A2200C63030 /* Friends3A.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +733,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A82773216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */,
 				3549BB511DA38A2000C63030 /* Friends3A.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,7 +997,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A82732216D26B6005D48D1 /* ImmutableMappable.swift in Sources */,
+				01A82702216D26B6005D48D1 /* ISO8601DateTransform.swift in Sources */,
+				01A826E2216D26B6005D48D1 /* SessionManager.swift in Sources */,
+				01A82785216D2913005D48D1 /* SwiftAddressBookSource.swift in Sources */,
+				01A826D2216D26B6005D48D1 /* Notifications.swift in Sources */,
+				01A82746216D26B6005D48D1 /* DateFormatterTransform.swift in Sources */,
+				01A827FE216D4374005D48D1 /* API.swift in Sources */,
+				01A82779216D2913005D48D1 /* SwiftAddressBookObserver.m in Sources */,
+				01A826CA216D26B5005D48D1 /* AFError.swift in Sources */,
+				01A826D6216D26B6005D48D1 /* Response.swift in Sources */,
+				01A82769216D2913005D48D1 /* SwiftAddressBookGroup.swift in Sources */,
+				01A8267D216D267D005D48D1 /* ContactsService.swift in Sources */,
+				01A826DA216D26B6005D48D1 /* Alamofire.swift in Sources */,
+				01A8273A216D26B6005D48D1 /* TransformType.swift in Sources */,
+				01A8271A216D26B6005D48D1 /* DataTransform.swift in Sources */,
+				01A8272E216D26B6005D48D1 /* TransformOperators.swift in Sources */,
+				01A826CE216D26B5005D48D1 /* Validation.swift in Sources */,
+				01A826F2216D26B6005D48D1 /* AlamofireObjectMapper.swift in Sources */,
+				01A8270A216D26B6005D48D1 /* NSDecimalNumberTransform.swift in Sources */,
+				01A82726216D26B6005D48D1 /* FromJSON.swift in Sources */,
+				01A826B2216D26B5005D48D1 /* MultipartFormData.swift in Sources */,
+				01A827B8216D2D0C005D48D1 /* FriendDetail.swift in Sources */,
+				01A82716216D26B6005D48D1 /* EnumTransform.swift in Sources */,
+				01A826C2216D26B5005D48D1 /* Result.swift in Sources */,
+				01A8271E216D26B6005D48D1 /* Mapper.swift in Sources */,
+				01A82736216D26B6005D48D1 /* IntegerOperators.swift in Sources */,
+				01A826AE216D26B5005D48D1 /* TaskDelegate.swift in Sources */,
+				01A82742216D26B6005D48D1 /* DateTransform.swift in Sources */,
+				01A826F6216D26B6005D48D1 /* Mappable.swift in Sources */,
+				01A826BE216D26B5005D48D1 /* DispatchQueue+Alamofire.swift in Sources */,
+				01A82781216D2913005D48D1 /* SwiftAddressBookWrapper.swift in Sources */,
+				01A826FE216D26B6005D48D1 /* HexColorTransform.swift in Sources */,
+				01A826DE216D26B6005D48D1 /* Request.swift in Sources */,
+				01A8274A216D26B6005D48D1 /* ToJSON.swift in Sources */,
+				01A826EE216D26B6005D48D1 /* SessionDelegate.swift in Sources */,
+				01A826C6216D26B5005D48D1 /* ParameterEncoding.swift in Sources */,
+				01A82775216D2913005D48D1 /* SwiftAddressBookRecord.swift in Sources */,
+				01A82722216D26B6005D48D1 /* Map.swift in Sources */,
+				01A826E6216D26B6005D48D1 /* ResponseSerialization.swift in Sources */,
 				359649031FB18CC000FC7ADC /* Friends3A.swift in Sources */,
+				01A827EE216D418A005D48D1 /* ContactsAPIRouter.swift in Sources */,
+				01A826FA216D26B6005D48D1 /* CustomDateFormatTransform.swift in Sources */,
+				01A8277D216D2913005D48D1 /* SwiftAddressBookPerson.swift in Sources */,
+				01A827F8216D4296005D48D1 /* BaseService.swift in Sources */,
+				01A8276D216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift in Sources */,
+				01A82712216D26B6005D48D1 /* EnumOperators.swift in Sources */,
+				01A826BA216D26B5005D48D1 /* Timeline.swift in Sources */,
+				01A8273E216D26B6005D48D1 /* MapError.swift in Sources */,
+				01A8272A216D26B6005D48D1 /* DictionaryTransform.swift in Sources */,
+				01A8270E216D26B6005D48D1 /* Operators.swift in Sources */,
+				01A82789216D2913005D48D1 /* SwiftAddressBookDataStructures.swift in Sources */,
+				01A82706216D26B6005D48D1 /* URLTransform.swift in Sources */,
+				01A826EA216D26B6005D48D1 /* ServerTrustPolicy.swift in Sources */,
+				01A8274E216D26B6005D48D1 /* TransformOf.swift in Sources */,
+				01A826B6216D26B5005D48D1 /* NetworkReachabilityManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,7 +1059,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A82731216D26B6005D48D1 /* TransformOperators.swift in Sources */,
+				01A826C1216D26B5005D48D1 /* DispatchQueue+Alamofire.swift in Sources */,
+				01A826B5216D26B5005D48D1 /* MultipartFormData.swift in Sources */,
+				01A826D5216D26B6005D48D1 /* Notifications.swift in Sources */,
+				01A826FD216D26B6005D48D1 /* CustomDateFormatTransform.swift in Sources */,
+				01A82721216D26B6005D48D1 /* Mapper.swift in Sources */,
+				01A82801216D4374005D48D1 /* API.swift in Sources */,
+				01A82784216D2913005D48D1 /* SwiftAddressBookWrapper.swift in Sources */,
+				01A826F1216D26B6005D48D1 /* SessionDelegate.swift in Sources */,
+				01A82705216D26B6005D48D1 /* ISO8601DateTransform.swift in Sources */,
+				01A8276C216D2913005D48D1 /* SwiftAddressBookGroup.swift in Sources */,
+				01A826E9216D26B6005D48D1 /* ResponseSerialization.swift in Sources */,
+				01A826DD216D26B6005D48D1 /* Alamofire.swift in Sources */,
+				01A82780216D2913005D48D1 /* SwiftAddressBookPerson.swift in Sources */,
+				01A82739216D26B6005D48D1 /* IntegerOperators.swift in Sources */,
+				01A826F5216D26B6005D48D1 /* AlamofireObjectMapper.swift in Sources */,
+				01A82711216D26B6005D48D1 /* Operators.swift in Sources */,
+				01A82715216D26B6005D48D1 /* EnumOperators.swift in Sources */,
+				01A82778216D2913005D48D1 /* SwiftAddressBookRecord.swift in Sources */,
+				01A826CD216D26B5005D48D1 /* AFError.swift in Sources */,
+				01A8274D216D26B6005D48D1 /* ToJSON.swift in Sources */,
+				01A8273D216D26B6005D48D1 /* TransformType.swift in Sources */,
+				01A827BB216D2D0C005D48D1 /* FriendDetail.swift in Sources */,
+				01A826D9216D26B6005D48D1 /* Response.swift in Sources */,
+				01A826C9216D26B5005D48D1 /* ParameterEncoding.swift in Sources */,
+				01A8271D216D26B6005D48D1 /* DataTransform.swift in Sources */,
 				359649061FB18CC000FC7ADC /* Friends3A.swift in Sources */,
+				01A8277C216D2913005D48D1 /* SwiftAddressBookObserver.m in Sources */,
+				01A826F9216D26B6005D48D1 /* Mappable.swift in Sources */,
+				01A826E5216D26B6005D48D1 /* SessionManager.swift in Sources */,
+				01A826B9216D26B5005D48D1 /* NetworkReachabilityManager.swift in Sources */,
+				01A8272D216D26B6005D48D1 /* DictionaryTransform.swift in Sources */,
+				01A826ED216D26B6005D48D1 /* ServerTrustPolicy.swift in Sources */,
+				01A82735216D26B6005D48D1 /* ImmutableMappable.swift in Sources */,
+				01A82719216D26B6005D48D1 /* EnumTransform.swift in Sources */,
+				01A82725216D26B6005D48D1 /* Map.swift in Sources */,
+				01A827B5216D2AE2005D48D1 /* ContactsService.swift in Sources */,
+				01A82729216D26B6005D48D1 /* FromJSON.swift in Sources */,
+				01A82749216D26B6005D48D1 /* DateFormatterTransform.swift in Sources */,
+				01A82770216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift in Sources */,
+				01A827F1216D418A005D48D1 /* ContactsAPIRouter.swift in Sources */,
+				01A82701216D26B6005D48D1 /* HexColorTransform.swift in Sources */,
+				01A826C5216D26B5005D48D1 /* Result.swift in Sources */,
+				01A827FB216D4296005D48D1 /* BaseService.swift in Sources */,
+				01A82751216D26B6005D48D1 /* TransformOf.swift in Sources */,
+				01A826BD216D26B5005D48D1 /* Timeline.swift in Sources */,
+				01A82745216D26B6005D48D1 /* DateTransform.swift in Sources */,
+				01A82709216D26B6005D48D1 /* URLTransform.swift in Sources */,
+				01A82788216D2913005D48D1 /* SwiftAddressBookSource.swift in Sources */,
+				01A826E1216D26B6005D48D1 /* Request.swift in Sources */,
+				01A826D1216D26B6005D48D1 /* Validation.swift in Sources */,
+				01A82741216D26B6005D48D1 /* MapError.swift in Sources */,
+				01A826B1216D26B5005D48D1 /* TaskDelegate.swift in Sources */,
+				01A8278C216D2913005D48D1 /* SwiftAddressBookDataStructures.swift in Sources */,
+				01A8270D216D26B6005D48D1 /* NSDecimalNumberTransform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,7 +1121,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A8272F216D26B6005D48D1 /* TransformOperators.swift in Sources */,
+				01A826BF216D26B5005D48D1 /* DispatchQueue+Alamofire.swift in Sources */,
+				01A826B3216D26B5005D48D1 /* MultipartFormData.swift in Sources */,
+				01A826D3216D26B6005D48D1 /* Notifications.swift in Sources */,
+				01A826FB216D26B6005D48D1 /* CustomDateFormatTransform.swift in Sources */,
+				01A8271F216D26B6005D48D1 /* Mapper.swift in Sources */,
+				01A827FF216D4374005D48D1 /* API.swift in Sources */,
+				01A82782216D2913005D48D1 /* SwiftAddressBookWrapper.swift in Sources */,
+				01A826EF216D26B6005D48D1 /* SessionDelegate.swift in Sources */,
+				01A82703216D26B6005D48D1 /* ISO8601DateTransform.swift in Sources */,
+				01A8276A216D2913005D48D1 /* SwiftAddressBookGroup.swift in Sources */,
+				01A826E7216D26B6005D48D1 /* ResponseSerialization.swift in Sources */,
+				01A826DB216D26B6005D48D1 /* Alamofire.swift in Sources */,
+				01A8277E216D2913005D48D1 /* SwiftAddressBookPerson.swift in Sources */,
+				01A82737216D26B6005D48D1 /* IntegerOperators.swift in Sources */,
+				01A826F3216D26B6005D48D1 /* AlamofireObjectMapper.swift in Sources */,
+				01A8270F216D26B6005D48D1 /* Operators.swift in Sources */,
+				01A82713216D26B6005D48D1 /* EnumOperators.swift in Sources */,
+				01A82776216D2913005D48D1 /* SwiftAddressBookRecord.swift in Sources */,
+				01A826CB216D26B5005D48D1 /* AFError.swift in Sources */,
+				01A8274B216D26B6005D48D1 /* ToJSON.swift in Sources */,
+				01A8273B216D26B6005D48D1 /* TransformType.swift in Sources */,
+				01A827B9216D2D0C005D48D1 /* FriendDetail.swift in Sources */,
+				01A826D7216D26B6005D48D1 /* Response.swift in Sources */,
+				01A826C7216D26B5005D48D1 /* ParameterEncoding.swift in Sources */,
+				01A8271B216D26B6005D48D1 /* DataTransform.swift in Sources */,
 				359649041FB18CC000FC7ADC /* Friends3A.swift in Sources */,
+				01A8277A216D2913005D48D1 /* SwiftAddressBookObserver.m in Sources */,
+				01A826F7216D26B6005D48D1 /* Mappable.swift in Sources */,
+				01A826E3216D26B6005D48D1 /* SessionManager.swift in Sources */,
+				01A826B7216D26B5005D48D1 /* NetworkReachabilityManager.swift in Sources */,
+				01A8272B216D26B6005D48D1 /* DictionaryTransform.swift in Sources */,
+				01A826EB216D26B6005D48D1 /* ServerTrustPolicy.swift in Sources */,
+				01A82733216D26B6005D48D1 /* ImmutableMappable.swift in Sources */,
+				01A82717216D26B6005D48D1 /* EnumTransform.swift in Sources */,
+				01A82723216D26B6005D48D1 /* Map.swift in Sources */,
+				01A827B3216D2AE0005D48D1 /* ContactsService.swift in Sources */,
+				01A82727216D26B6005D48D1 /* FromJSON.swift in Sources */,
+				01A82747216D26B6005D48D1 /* DateFormatterTransform.swift in Sources */,
+				01A8276E216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift in Sources */,
+				01A827EF216D418A005D48D1 /* ContactsAPIRouter.swift in Sources */,
+				01A826FF216D26B6005D48D1 /* HexColorTransform.swift in Sources */,
+				01A826C3216D26B5005D48D1 /* Result.swift in Sources */,
+				01A827F9216D4296005D48D1 /* BaseService.swift in Sources */,
+				01A8274F216D26B6005D48D1 /* TransformOf.swift in Sources */,
+				01A826BB216D26B5005D48D1 /* Timeline.swift in Sources */,
+				01A82743216D26B6005D48D1 /* DateTransform.swift in Sources */,
+				01A82707216D26B6005D48D1 /* URLTransform.swift in Sources */,
+				01A82786216D2913005D48D1 /* SwiftAddressBookSource.swift in Sources */,
+				01A826DF216D26B6005D48D1 /* Request.swift in Sources */,
+				01A826CF216D26B6005D48D1 /* Validation.swift in Sources */,
+				01A8273F216D26B6005D48D1 /* MapError.swift in Sources */,
+				01A826AF216D26B5005D48D1 /* TaskDelegate.swift in Sources */,
+				01A8278A216D2913005D48D1 /* SwiftAddressBookDataStructures.swift in Sources */,
+				01A8270B216D26B6005D48D1 /* NSDecimalNumberTransform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,7 +1183,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A82730216D26B6005D48D1 /* TransformOperators.swift in Sources */,
+				01A826C0216D26B5005D48D1 /* DispatchQueue+Alamofire.swift in Sources */,
+				01A826B4216D26B5005D48D1 /* MultipartFormData.swift in Sources */,
+				01A826D4216D26B6005D48D1 /* Notifications.swift in Sources */,
+				01A826FC216D26B6005D48D1 /* CustomDateFormatTransform.swift in Sources */,
+				01A82720216D26B6005D48D1 /* Mapper.swift in Sources */,
+				01A82800216D4374005D48D1 /* API.swift in Sources */,
+				01A82783216D2913005D48D1 /* SwiftAddressBookWrapper.swift in Sources */,
+				01A826F0216D26B6005D48D1 /* SessionDelegate.swift in Sources */,
+				01A82704216D26B6005D48D1 /* ISO8601DateTransform.swift in Sources */,
+				01A8276B216D2913005D48D1 /* SwiftAddressBookGroup.swift in Sources */,
+				01A826E8216D26B6005D48D1 /* ResponseSerialization.swift in Sources */,
+				01A826DC216D26B6005D48D1 /* Alamofire.swift in Sources */,
+				01A8277F216D2913005D48D1 /* SwiftAddressBookPerson.swift in Sources */,
+				01A82738216D26B6005D48D1 /* IntegerOperators.swift in Sources */,
+				01A826F4216D26B6005D48D1 /* AlamofireObjectMapper.swift in Sources */,
+				01A82710216D26B6005D48D1 /* Operators.swift in Sources */,
+				01A82714216D26B6005D48D1 /* EnumOperators.swift in Sources */,
+				01A82777216D2913005D48D1 /* SwiftAddressBookRecord.swift in Sources */,
+				01A826CC216D26B5005D48D1 /* AFError.swift in Sources */,
+				01A8274C216D26B6005D48D1 /* ToJSON.swift in Sources */,
+				01A8273C216D26B6005D48D1 /* TransformType.swift in Sources */,
+				01A827BA216D2D0C005D48D1 /* FriendDetail.swift in Sources */,
+				01A826D8216D26B6005D48D1 /* Response.swift in Sources */,
+				01A826C8216D26B5005D48D1 /* ParameterEncoding.swift in Sources */,
+				01A8271C216D26B6005D48D1 /* DataTransform.swift in Sources */,
 				359649051FB18CC000FC7ADC /* Friends3A.swift in Sources */,
+				01A8277B216D2913005D48D1 /* SwiftAddressBookObserver.m in Sources */,
+				01A826F8216D26B6005D48D1 /* Mappable.swift in Sources */,
+				01A826E4216D26B6005D48D1 /* SessionManager.swift in Sources */,
+				01A826B8216D26B5005D48D1 /* NetworkReachabilityManager.swift in Sources */,
+				01A8272C216D26B6005D48D1 /* DictionaryTransform.swift in Sources */,
+				01A826EC216D26B6005D48D1 /* ServerTrustPolicy.swift in Sources */,
+				01A82734216D26B6005D48D1 /* ImmutableMappable.swift in Sources */,
+				01A82718216D26B6005D48D1 /* EnumTransform.swift in Sources */,
+				01A82724216D26B6005D48D1 /* Map.swift in Sources */,
+				01A827B4216D2AE1005D48D1 /* ContactsService.swift in Sources */,
+				01A82728216D26B6005D48D1 /* FromJSON.swift in Sources */,
+				01A82748216D26B6005D48D1 /* DateFormatterTransform.swift in Sources */,
+				01A8276F216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift in Sources */,
+				01A827F0216D418A005D48D1 /* ContactsAPIRouter.swift in Sources */,
+				01A82700216D26B6005D48D1 /* HexColorTransform.swift in Sources */,
+				01A826C4216D26B5005D48D1 /* Result.swift in Sources */,
+				01A827FA216D4296005D48D1 /* BaseService.swift in Sources */,
+				01A82750216D26B6005D48D1 /* TransformOf.swift in Sources */,
+				01A826BC216D26B5005D48D1 /* Timeline.swift in Sources */,
+				01A82744216D26B6005D48D1 /* DateTransform.swift in Sources */,
+				01A82708216D26B6005D48D1 /* URLTransform.swift in Sources */,
+				01A82787216D2913005D48D1 /* SwiftAddressBookSource.swift in Sources */,
+				01A826E0216D26B6005D48D1 /* Request.swift in Sources */,
+				01A826D0216D26B6005D48D1 /* Validation.swift in Sources */,
+				01A82740216D26B6005D48D1 /* MapError.swift in Sources */,
+				01A826B0216D26B5005D48D1 /* TaskDelegate.swift in Sources */,
+				01A8278B216D2913005D48D1 /* SwiftAddressBookDataStructures.swift in Sources */,
+				01A8270C216D26B6005D48D1 /* NSDecimalNumberTransform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

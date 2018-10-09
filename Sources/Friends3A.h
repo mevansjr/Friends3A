@@ -15,3 +15,5 @@ FOUNDATION_EXPORT double Friends3AVersionNumber;
 FOUNDATION_EXPORT const unsigned char Friends3AVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Friends3A/PublicHeader.h>
+
+#import "SwiftAddressBookObserver.h"
