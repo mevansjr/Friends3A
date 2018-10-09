@@ -12,11 +12,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Friends3A:
-    :commit: af03644044c7c54d4a7887987deec9c8a3db346f
+    :commit: fe8923ffdab96f56540f4b1a8d428abffd074527
     :git: https://github.com/mevansjr/Friends3A
 
 SPEC CHECKSUMS:
-  Friends3A: 16a79602876e8b37e7d56e08261a62999685b603
+  Friends3A: 5392e9947f9eb08029989f6f5d836486f5acd299
 
 PODFILE CHECKSUM: df384ee79be01c5c9aac5c16185c2c68dc10ed96
 

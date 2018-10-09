@@ -41,7 +41,7 @@ public class Contact: NSObject, Mappable {
 typealias CompletionHandler = (_ success: Any?, _ error: NSError?) -> Void
 typealias CompletionBoolHandler = (_ success: Bool) -> Void
 
-extension ContactsService {
+public extension ContactsService {
     func sendFriends(contacts: [FriendDetail], completion: @escaping CompletionHandler) {
         DispatchQueue(label: "background", qos: .background).async {
             self.manager.request(ContactsAPIRouter.sendFriends(contacts))
