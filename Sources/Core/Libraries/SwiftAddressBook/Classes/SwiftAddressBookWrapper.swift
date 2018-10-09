@@ -28,8 +28,6 @@ public var accessError : CFError?
 open class SwiftAddressBook {
 
 	open var internalAddressBook : ABAddressBook!
-	
-	fileprivate lazy var addressBookObserver = SwiftAddressBookObserver()
 
 	public init?() {
 		var err : Unmanaged<CFError>? = nil
@@ -85,19 +83,6 @@ open class SwiftAddressBook {
     open var allPeople : [SwiftAddressBookPerson]? {
 		return convertRecordsToPersons(ABAddressBookCopyArrayOfAllPeople(internalAddressBook).takeRetainedValue())
     }
-
-	open func registerExternalChangeCallback(_ callback: @escaping () -> Void) {
-		addressBookObserver.startObserveChanges { (addressBook) -> Void in
-			callback()
-		}
-	}
-
-	open func unregisterExternalChangeCallback(_ callback: () -> Void) {
-		addressBookObserver.stopObserveChanges()
-		callback()
-	}
-
-
 
 	open var allPeopleExcludingLinkedContacts : [SwiftAddressBookPerson]? {
 		if let all = allPeople {

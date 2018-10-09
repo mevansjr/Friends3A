@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Friends3A:
-    :commit: 29ee3a5738f098ec80a3021c5fc0aca18d3f2488
+    :commit: 102ebaef360ea405b20adab0a60a89ba940cae14
     :git: https://github.com/mevansjr/Friends3A
 
 SPEC CHECKSUMS:
