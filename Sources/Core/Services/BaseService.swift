@@ -39,15 +39,15 @@ public class ContactsService {
     }
 }
 
-extension Error {
+public extension Error {
     var code: Int { return (self as NSError).code }
     var domain: String { return self.localizedDescription }
 
-    func handleError() -> NSError {
+    public func handleError() -> NSError {
         return handleError(response: nil)
     }
 
-    func handleError(response: HTTPURLResponse?) -> NSError {
+    public func handleError(response: HTTPURLResponse?) -> NSError {
         var message = ""
         var status = self.code
         if let messageResponse = response?.allHeaderFields["Message"] as? String, !messageResponse.isEmpty, let statusCode = response?.statusCode {

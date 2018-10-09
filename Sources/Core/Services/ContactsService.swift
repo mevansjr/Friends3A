@@ -42,7 +42,7 @@ typealias CompletionHandler = (_ success: Any?, _ error: NSError?) -> Void
 typealias CompletionBoolHandler = (_ success: Bool) -> Void
 
 public extension ContactsService {
-    func sendFriends(contacts: [FriendDetail], completion: @escaping CompletionHandler) {
+    public func sendFriends(contacts: [FriendDetail], completion: @escaping CompletionHandler) {
         DispatchQueue(label: "background", qos: .background).async {
             self.manager.request(ContactsAPIRouter.sendFriends(contacts))
                 .validate(statusCode: 200..<300)
@@ -59,7 +59,7 @@ public extension ContactsService {
         }
     }
     
-    func requestContacts(completion: @escaping (_ granted: Bool, _ contacts: [Contact]) -> Void) {
+    public func requestContacts(completion: @escaping (_ granted: Bool, _ contacts: [Contact]) -> Void) {
         SwiftAddressBook.requestAccessWithCompletion { (granted: Bool, _: CFError?) -> Void in
             DispatchQueue.main.async {
                 if granted {
@@ -70,14 +70,14 @@ public extension ContactsService {
         }
     }
 
-    func getSavedLocalContacts() {
+    public func getSavedLocalContacts() {
         localSavedContacts = [[String: String]]()
         if let contacts = UserDefaults.standard.value(forKey: "local-saved-contacts") as? [[String: String]] {
             localSavedContacts = contacts
         }
     }
 
-    func saveLocalContacts(friends: [FriendDetail]) {
+    public func saveLocalContacts(friends: [FriendDetail]) {
         getSavedLocalContacts()
         friends.forEach { (friend) in
             if let phone = friend.friendPhoneNumber?.phoneDigits, let name = friend.friendName {
@@ -214,7 +214,7 @@ public extension ContactsService {
         return self.contacts
     }
 
-    func filterContacts(contacts: [Contact]) -> [Contact]  {
+    public func filterContacts(contacts: [Contact]) -> [Contact]  {
         var contacts = contacts
         contacts = contacts.sorted(by: { (a, b) -> Bool in
             if a.ContactId != nil && b.ContactId != nil {
