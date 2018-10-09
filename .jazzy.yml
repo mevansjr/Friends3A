@@ -1,0 +1,8 @@
+author: Mark Evans
+author_url: https://twitter.com/3Advance
+github_url: https://github.com/3Advance/Friends3A
+root_url: https://3Advance.github.io/Friends3A/
+module: Friends3A
+output: docs
+theme: fullwidth
+xcodebuild_arguments: [-workspace, 'Friends3A.xcworkspace', -scheme, 'Friends3A-iOS']
