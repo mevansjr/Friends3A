@@ -7,14 +7,13 @@
 //
 
 import UIKit
-import Friends3A
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        ContactsService.shared.requestContacts
+
     }
 }
 

@@ -180,7 +180,7 @@
 		01A8276E216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82761216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift */; };
 		01A8276F216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82761216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift */; };
 		01A82770216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A82761216D2913005D48D1 /* SwiftAddressBookHelperMethods.swift */; };
-		01A82771216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A82762216D2913005D48D1 /* SwiftAddressBookObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01A82771216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A82762216D2913005D48D1 /* SwiftAddressBookObserver.h */; };
 		01A82772216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A82762216D2913005D48D1 /* SwiftAddressBookObserver.h */; };
 		01A82773216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A82762216D2913005D48D1 /* SwiftAddressBookObserver.h */; };
 		01A82774216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A82762216D2913005D48D1 /* SwiftAddressBookObserver.h */; };
@@ -706,8 +706,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01A82771216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */,
 				3549BB501DA38A2000C63030 /* Friends3A.h in Headers */,
+				01A82771216D2913005D48D1 /* SwiftAddressBookObserver.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
